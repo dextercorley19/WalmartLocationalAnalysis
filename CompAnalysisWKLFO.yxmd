@@ -1,0 +1,2659 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="57" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\sales data-set.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>sales data-set.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\sales data-set.csv" type="V_String" />
+            <Field name="Dept" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\sales data-set.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\sales data-set.csv" type="V_String" />
+            <Field name="Weekly_Sales" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\sales data-set.csv" type="V_String" />
+            <Field name="IsHoliday" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\sales data-set.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="57" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Features Data set.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="Temperature" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="Fuel_Price" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="MarkDown1" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="MarkDown2" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="MarkDown3" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="MarkDown4" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="MarkDown5" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="CPI" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="Unemployment" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+            <Field name="IsHoliday" size="254" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\Features Data set.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="57" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>stores data-set-withDMA.xlsx
+Query=`stores data-set-withDMA$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+            <Field name="Type" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="V_String" />
+            <Field name="Size" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+            <Field name="DMA " size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="V_String" />
+            <Field name="F5" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+            <Field name="F6" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+            <Field name="F7" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+            <Field name="F8" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+            <Field name="F9" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\stores data-set-withDMA.xlsx|||`stores data-set-withDMA$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="57" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PI-18803 DMAs.xlsx
+Query=`DMAs$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DMA" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="V_String" />
+            <Field name="Name" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="V_String" />
+            <Field name="DMA Name" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="V_String" />
+            <Field name="Area" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Latitude" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Longitude" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Country" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="V_String" />
+            <Field name="Population 18+" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Household Count" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Med HHld Income" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHlds No Vehicles" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHlds 1-2 Vehicles" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHlds 2+ Vehicles" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHld Exp - Public Transport" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHld Exp - Intercity Bus Fare" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHld Exp - Mass Transit" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHld Exp - Taxi" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="HHld Exp - Other Public Transportation" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="White" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="African American" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="American Indian" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Asian" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Hawaiian/Pacific Islander" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Other Race" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Multi-Race" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+            <Field name="Hispanic" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\PI-18803 DMAs.xlsx|||`DMAs$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="57" y="870" width="492" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>These files provide input into consumer expenditure in major categories. You may make a qualitative judgement on which categories (and consequently) which spend levels you believe to be the most attractive. Explain all assumptions.
+
+Parse out the columns into fields categorized by the row variable. Then use cross tab or transpose as a pttern to but the city into its own field "City" in the same row as the data for each of the categories.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="153" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Store" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="655" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Store" order="Ascending" />
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store - Ascending
+Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="259" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yy</Format>
+          <OutputFieldName>Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+MM/dd/yy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="153" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="343" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Language>English</Language>
+          <Format>dd/MM/yyyy</Format>
+          <OutputFieldName>Date2</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="463" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Date2]) THEN [Date3] ELSE [Date2] ENDIF" field="Date2" size="10" type="Date" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Date2 = IF IsNull([Date2]) THEN [Date3] ELSE [Date2] ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="559" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" type="Int16" size="2" />
+            <SelectField field="Date2" selected="True" rename="Date" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Temperature" selected="True" type="Double" size="8" />
+            <SelectField field="Fuel_Price" selected="True" type="Double" size="8" />
+            <SelectField field="MarkDown1" selected="True" type="Double" size="8" description="Promoting and discounting at a store level." />
+            <SelectField field="MarkDown2" selected="True" type="Double" size="8" />
+            <SelectField field="MarkDown3" selected="True" type="Double" size="8" />
+            <SelectField field="MarkDown4" selected="True" type="Double" size="8" />
+            <SelectField field="MarkDown5" selected="True" type="Double" size="8" />
+            <SelectField field="CPI" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment" selected="True" type="Double" size="8" />
+            <SelectField field="IsHoliday" selected="True" />
+            <SelectField field="Date3" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="259" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Language>English</Language>
+          <Format>dd/MM/yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="655" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" type="Int16" size="2" />
+            <SelectField field="Dept" selected="True" type="Int16" size="2" />
+            <SelectField field="DateTime_Out" selected="True" rename="Date" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Weekly_Sales" selected="True" type="Double" size="8" />
+            <SelectField field="IsHoliday" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="751" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+            <Field field="Date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+            <Field field="Date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Store" selected="True" input="Left_" />
+                <SelectField field="Left_Dept" selected="True" input="Left_" />
+                <SelectField field="Left_Date" selected="True" input="Left_" />
+                <SelectField field="Left_Weekly_Sales" selected="True" input="Left_" />
+                <SelectField field="Left_IsHoliday" selected="True" input="Left_" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                <SelectField field="Right_Date" selected="False" rename="Right_Date" input="Right_" />
+                <SelectField field="Right_Temperature" selected="True" input="Right_" />
+                <SelectField field="Right_Fuel_Price" selected="True" input="Right_" />
+                <SelectField field="Right_CPI" selected="True" input="Right_" />
+                <SelectField field="Right_Unemployment" selected="True" input="Right_" />
+                <SelectField field="Right_MarkDown1" selected="True" input="Right_" />
+                <SelectField field="Right_MarkDown2" selected="True" input="Right_" />
+                <SelectField field="Right_MarkDown3" selected="True" input="Right_" />
+                <SelectField field="Right_MarkDown4" selected="True" input="Right_" />
+                <SelectField field="Right_MarkDown5" selected="True" input="Right_" />
+                <SelectField field="Right_IsHoliday" selected="False" rename="Right_IsHoliday" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="871" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="967" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Store" order="Ascending" />
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store - Ascending
+Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="259" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DMA " selected="True" rename="DMA" />
+            <SelectField field="F5" selected="False" />
+            <SelectField field="F6" selected="False" />
+            <SelectField field="F7" selected="False" />
+            <SelectField field="F8" selected="False" />
+            <SelectField field="F9" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="259" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="False" />
+            <SelectField field="DMA Name" selected="True" rename="DMA" />
+            <SelectField field="DMA" selected="True" rename="DMA_Number" type="Double" size="8" />
+            <SelectField field="Area" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Country" selected="True" />
+            <SelectField field="Population 18+" selected="True" />
+            <SelectField field="Household Count" selected="True" />
+            <SelectField field="Med HHld Income" selected="True" />
+            <SelectField field="HHlds No Vehicles" selected="True" />
+            <SelectField field="HHlds 1-2 Vehicles" selected="True" />
+            <SelectField field="HHlds 2+ Vehicles" selected="True" />
+            <SelectField field="HHld Exp - Public Transport" selected="True" />
+            <SelectField field="HHld Exp - Intercity Bus Fare" selected="True" />
+            <SelectField field="HHld Exp - Mass Transit" selected="True" />
+            <SelectField field="HHld Exp - Taxi" selected="True" />
+            <SelectField field="HHld Exp - Other Public Transportation" selected="True" />
+            <SelectField field="White" selected="True" />
+            <SelectField field="African American" selected="True" />
+            <SelectField field="American Indian" selected="True" />
+            <SelectField field="Asian" selected="True" />
+            <SelectField field="Hawaiian/Pacific Islander" selected="True" />
+            <SelectField field="Other Race" selected="True" />
+            <SelectField field="Multi-Race" selected="True" />
+            <SelectField field="Hispanic" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="475" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [DMA] = &quot;Tampa-St Petersburg&quot; THEN &quot;Tampa-St. Pete&quot; ELSEIF [DMA] = &quot;Orlando-Daytona Beach-Melbourne&quot; THEN &quot;Oralando-Daytona Brach-Melbourne FL&quot; ELSEIF [DMA] = &quot;Dallas-Fort Worth&quot; THEN &quot;Dallas-Ft.Worth&quot; ELSEIF [DMA] = &quot;Cleveland&quot; THEN &quot;Cleveland-Akron&quot; ELSE [DMA] ENDIF" field="DMA" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DMA = IF [DMA] = "Tampa-St Petersburg" THEN "Tampa-St. Pete" ELSEIF [DMA] = "Orl...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="655" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="DMA" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DMA - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="655" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="DMA" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DMA - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="763" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DMA" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="DMA" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_DMA" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="955" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="DMA" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DMA - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="847" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [DMA] = &quot;Oralando-Daytona Brach-Melbourne FL&quot; THEN &quot;Orlando-Daytona Beach-Melbourne&quot; ELSEIF [DMA] = &quot;Tampa-St. Pete&quot; THEN &quot;Tampa-St Petersburg&quot; ELSE [DMA] ENDIF" field="DMA" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DMA = IF [DMA] = "Oralando-Daytona Brach-Melbourne FL" THEN "Orlando-Daytona Bea...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="643" y="750" width="288" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The join tool won't properly work when the spelling is different for some of the locations. Needed to fix with formula tool so it will line up.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="763" y="702" width="168" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Orlando beach had it's spelling severely butchered. All fixed</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="739" y="54" width="408" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>WHATs going on here
+1. get rid of the departments and add up department weekly sales to get a total weekly sales for each store for each week. Then get metric, average weekly sales per store.
+2. Markdown data accounts for promotional and discounts the store ran. I don't know why there are 1-5 of these. Get a metric that subtracts amount of markdown from weekly sales per week.
+In Duncans words: "Get a metric that shows depth of discounting or price reductions by DMA."</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RunningTotal.RunningTotal">
+        <Position x="1063" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupByFields>
+            <Field field="Date" />
+          </GroupByFields>
+          <RunningTotalFields>
+            <Field field="Weekly_Sales" />
+          </RunningTotalFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunningTotal" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1267" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>Dept</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-11-15 18:58:16</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>98</Operand>
+              <StartDate>2022-11-15 18:58:16</StartDate>
+              <EndDate>2022-11-15 18:58:16</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Dept] != 98</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1471" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Store" order="Ascending" />
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store - Ascending
+Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1555" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" type="Double" size="8" />
+            <SelectField field="Dept" selected="False" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="RunTot_Weekly_Sales" selected="True" rename="Store Weekly Sales" />
+            <SelectField field="Weekly_Sales" selected="False" />
+            <SelectField field="IsHoliday" selected="True" />
+            <SelectField field="Temperature" selected="True" />
+            <SelectField field="Fuel_Price" selected="True" />
+            <SelectField field="CPI" selected="True" />
+            <SelectField field="Unemployment" selected="True" />
+            <SelectField field="MarkDown1" selected="True" />
+            <SelectField field="MarkDown2" selected="True" />
+            <SelectField field="MarkDown3" selected="True" />
+            <SelectField field="MarkDown4" selected="True" />
+            <SelectField field="MarkDown5" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1651" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Store" action="GroupBy" rename="Store" />
+            <SummarizeField field="Store Weekly Sales" action="Avg" rename="Avg_Store Weekly Sales" />
+            <SummarizeField field="Date" action="Count" rename="Count" />
+            <SummarizeField field="Fuel_Price" action="Avg" rename="Avg_Fuel_Price" />
+            <SummarizeField field="Unemployment" action="Variance" rename="Variance_Unemployment" />
+            <SummarizeField field="Temperature" action="Avg" rename="Avg_Temperature" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1111" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Avg_Store Weekly Sales" selected="True" rename="Average Weekly Sales" input="Left_" />
+                <SelectField field="Left_Count" selected="True" rename="Count of Weeks Averaged" input="Left_" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1243" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Round([Average Weekly Sales], 0.01)" field="Average Weekly Sales" size="8" type="Double" />
+            <FormulaField expression="Round([Avg_Fuel_Price], 0.01)" field="Avg_Fuel_Price" size="8" type="Double" />
+            <FormulaField expression="Round([Avg_Temperature], 0.01)" field="Avg_Temperature" size="8" type="Double" />
+            <FormulaField expression="Round([Variance_Unemployment], 0.01)" field="Variance_Unemployment" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Average Weekly Sales = Round([Average Weekly Sales], 0.01)
+Avg_Fuel_Price = Roun...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1363" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Average Weekly Sales" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Average Weekly Sales - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1171" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1399" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([MarkDown5])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([MarkDown5])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1507" y="66" width="516" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Markdown exploration:
+Markdown 5 contains the most values (1572) which can now be used to calculate a new field that shows how much $ was marked down that week.
+IsHoliday is misleading, only account for 8.44% of the data containing markdown values</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1519" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dcmac14\AppData\Local\Temp\Engine_2632_658047c20e58e94280faf470d5b98355_\Engine_2632_68a7b82d5919164d959a86cf6bdb6621~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1363" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([MarkDown1]) THEN [RunTot_Weekly_Sales] ELSE [RunTot_Weekly_Sales] - [MarkDown1] ENDIF" field="RunTot_Weekly_Sales" size="8" type="Double" />
+            <FormulaField expression="IF IsNull([MarkDown2]) THEN [RunTot_Weekly_Sales] ELSE [RunTot_Weekly_Sales] - [MarkDown2] ENDIF" field="RunTot_Weekly_Sales" size="8" type="Double" />
+            <FormulaField expression="IF IsNull([MarkDown3]) THEN [RunTot_Weekly_Sales] ELSE [RunTot_Weekly_Sales] - [MarkDown3] ENDIF" field="RunTot_Weekly_Sales" size="8" type="Double" />
+            <FormulaField expression="IF IsNull([MarkDown4]) THEN [RunTot_Weekly_Sales] ELSE [RunTot_Weekly_Sales] - [MarkDown4] ENDIF" field="RunTot_Weekly_Sales" size="8" type="Double" />
+            <FormulaField expression="IF IsNull([MarkDown5]) THEN [RunTot_Weekly_Sales] ELSE [RunTot_Weekly_Sales] - [MarkDown5] ENDIF" field="RunTot_Weekly_Sales" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RunTot_Weekly_Sales = IF IsNull([MarkDown1]) THEN [RunTot_Weekly_Sales] ELSE [Ru...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1459" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Average Weekly Sales" selected="True" />
+            <SelectField field="DMA" selected="True" />
+            <SelectField field="Count of Weeks Averaged" selected="True" />
+            <SelectField field="Avg_Fuel_Price" selected="True" rename="Average Fuel Price" />
+            <SelectField field="Variance_Unemployment" selected="True" rename="Variance of Unemployment" />
+            <SelectField field="Avg_Temperature" selected="True" rename="Average Temperature" />
+            <SelectField field="Type" selected="True" />
+            <SelectField field="Size" selected="True" />
+            <SelectField field="DMA_Number" selected="True" />
+            <SelectField field="Area" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Country" selected="True" />
+            <SelectField field="Population 18+" selected="True" />
+            <SelectField field="Household Count" selected="True" />
+            <SelectField field="Med HHld Income" selected="True" />
+            <SelectField field="HHlds No Vehicles" selected="True" />
+            <SelectField field="HHlds 1-2 Vehicles" selected="True" />
+            <SelectField field="HHlds 2+ Vehicles" selected="True" />
+            <SelectField field="HHld Exp - Public Transport" selected="True" />
+            <SelectField field="HHld Exp - Intercity Bus Fare" selected="True" />
+            <SelectField field="HHld Exp - Mass Transit" selected="True" />
+            <SelectField field="HHld Exp - Taxi" selected="True" />
+            <SelectField field="HHld Exp - Other Public Transportation" selected="True" />
+            <SelectField field="White" selected="True" />
+            <SelectField field="African American" selected="True" />
+            <SelectField field="American Indian" selected="True" />
+            <SelectField field="Asian" selected="True" />
+            <SelectField field="Hawaiian/Pacific Islander" selected="True" />
+            <SelectField field="Other Race" selected="True" />
+            <SelectField field="Multi-Race" selected="True" />
+            <SelectField field="Hispanic" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1231" y="450" width="516" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Was thinking that I would use R for the next step but realized there's no point in doing a regression because there isnt enough data for it to be worth it at least when predicting average sales because i already have. Well there might be.. Going to throw into Tableau for visualizations first.
+
+Now to R for modeling.
+1. Use average weekly sales as the dependent variable for the rest of the predictors in DMA data set. 
+2. Use temperature and cpi and markdowns to determine the ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1543" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\DMA_storesweeklysales.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DMA_storesweeklysales.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1782" y="185" width="380" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>weekly sales total output with temp, etc for regression</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1807" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\Homework4\5kweeklysales.xlsx|||Sheet1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>5kweeklysales.xlsx
+Query=Sheet1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1637" y="364" width="1070" height="722" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DMA Of stores output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2191" y="413" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\DMA_AvgSales2.xlsx|||Sheet1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DMA_AvgSales2.xlsx
+Query=Sheet1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="2263" y="678" width="276" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Make a measure for average weekly sales to population.
+Per Person Spending Per Week score</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2023" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Round([PPWKS], 0.01)" field="PPWKS" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[PPWKS = Round([PPWKS], 0.01)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="2322" y="869" width="155" height="165" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 75</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="74">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="2347" y="918" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\15DMA_Final.xlsx|||DMA_3</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <PreserveFormat>False</PreserveFormat>
+                    <SkipFieldNames>False</SkipFieldNames>
+                    <OutputOption>Create</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>15DMA_Final.xlsx
+Query=DMA_3</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="2526" y="593" width="156" height="165" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>dma_PPWKS</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="69">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="2551" y="642" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\DMA_PPWKS.xlsx|||Sheet1</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <PreserveFormat>False</PreserveFormat>
+                    <SkipFieldNames>False</SkipFieldNames>
+                    <OutputOption>Create</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DMA_PPWKS.xlsx
+Query=Sheet1</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="2203" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Sum_PPWKS" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sum_PPWKS - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2071" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Round([Sum_PPWKS], 0.01)" field="Sum_PPWKS" size="8" type="Double" />
+                <FormulaField expression="Round([Avg_Average Weekly Sales], 0.01)" field="Avg_Average Weekly Sales" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sum_PPWKS = Round([Sum_PPWKS], 0.01)
+Avg_Average Weekly Sales = Round([Avg_Avera...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1686" y="821" width="301" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>PPWKS_Revised</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="71">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="1711" y="870" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="DMA" action="GroupBy" rename="DMA" />
+                    <SummarizeField field="DMA" action="Count" rename="Stores In DMA" />
+                    <SummarizeField field="Average Weekly Sales" action="Sum" rename="Average Weekly Sales(DMA)" />
+                    <SummarizeField field="Average Fuel Price" action="Avg" rename="Average Fuel Price(DMA)" />
+                    <SummarizeField field="Average Temperature" action="Avg" rename="Average Temperature(DMA)" />
+                    <SummarizeField field="Latitude" action="Avg" rename="DMA Latitude" />
+                    <SummarizeField field="Longitude" action="Avg" rename="DMA Longitude" />
+                    <SummarizeField field="Population 18+" action="Avg" rename="Population 18+(DMA)" />
+                    <SummarizeField field="Household Count" action="Avg" rename="Household Count(DMA)" />
+                    <SummarizeField field="Med HHld Income" action="Avg" rename="Med HHld Income(DMA)" />
+                    <SummarizeField field="Variance of Unemployment" action="Avg" rename="Variance of Unemployment(DMA)" />
+                    <SummarizeField field="Size" action="Avg" rename="Size(DMA)" />
+                    <SummarizeField field="HHlds No Vehicles" action="Avg" rename="HHlds No Vehicles (DMA)" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="73">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1807" y="870" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="Round([Population 18+(DMA)]/([Average Weekly Sales(DMA)]/[Stores In DMA]), 0.001)" field="PPWKS_DMA" size="1073741823" type="V_WString" />
+                    <FormulaField expression="Round([Size(DMA)], 0.01)" field="Size(DMA)" size="8" type="Double" />
+                    <FormulaField expression="Round([Variance of Unemployment(DMA)], 0.01)" field="Variance of Unemployment(DMA)" size="8" type="Double" />
+                    <FormulaField expression="Round([Average Temperature(DMA)], 0.01)" field="Average Temperature(DMA)" size="8" type="Double" />
+                    <FormulaField expression="Round([Average Fuel Price(DMA)], 0.01)" field="Average Fuel Price(DMA)" size="8" type="Double" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>PPWKS_DMA = Round([Population 18+(DMA)]/([Average Weekly Sales(DMA)]/[Stores In ...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="76">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1903" y="870" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="DMA" selected="True" />
+                    <SelectField field="Stores In DMA" selected="True" />
+                    <SelectField field="Population 18+(DMA)" selected="True" />
+                    <SelectField field="Average Weekly Sales(DMA)" selected="True" />
+                    <SelectField field="PPWKS_DMA" selected="True" />
+                    <SelectField field="Average Fuel Price(DMA)" selected="True" />
+                    <SelectField field="Average Temperature(DMA)" selected="True" />
+                    <SelectField field="DMA Latitude" selected="True" />
+                    <SelectField field="DMA Longitude" selected="True" />
+                    <SelectField field="Household Count(DMA)" selected="True" />
+                    <SelectField field="Med HHld Income(DMA)" selected="True" />
+                    <SelectField field="Variance of Unemployment(DMA)" selected="True" />
+                    <SelectField field="Size(DMA)" selected="True" />
+                    <SelectField field="HHlds No Vehicles (DMA)" selected="True" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1662" y="568" width="361" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Creating per person weekly spending per area field</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="63">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1687" y="617" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="IF [DMA] = &quot;Los Angeles&quot; [Population 18+]/([Average Weekly Sales])" field="PPWKS" size="1073741823" type="V_WString" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[PPWKS = IF [DMA] = "Los Angeles" [Population 18+]/([Average Weekly Sales])
+
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="64">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="1879" y="617" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="DMA" action="GroupBy" rename="DMA" />
+                    <SummarizeField field="PPWKS" action="Sum" rename="Sum_PPWKS" />
+                    <SummarizeField field="Average Weekly Sales" action="Avg" rename="Avg_Average Weekly Sales" />
+                    <SummarizeField field="Population 18+" action="Avg" rename="Avg_Population 18+" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="65">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1783" y="617" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Store" selected="True" />
+                    <SelectField field="DMA" selected="True" />
+                    <SelectField field="Average Weekly Sales" selected="True" />
+                    <SelectField field="PPWKS" selected="True" type="Double" size="8" />
+                    <SelectField field="Count of Weeks Averaged" selected="True" />
+                    <SelectField field="Average Fuel Price" selected="True" />
+                    <SelectField field="Variance of Unemployment" selected="True" />
+                    <SelectField field="Average Temperature" selected="True" />
+                    <SelectField field="Type" selected="True" />
+                    <SelectField field="Size" selected="True" />
+                    <SelectField field="DMA_Number" selected="False" />
+                    <SelectField field="Area" selected="True" />
+                    <SelectField field="Latitude" selected="True" />
+                    <SelectField field="Longitude" selected="True" />
+                    <SelectField field="Country" selected="True" />
+                    <SelectField field="Population 18+" selected="True" />
+                    <SelectField field="Household Count" selected="True" />
+                    <SelectField field="Med HHld Income" selected="True" />
+                    <SelectField field="HHlds No Vehicles" selected="True" />
+                    <SelectField field="HHlds 1-2 Vehicles" selected="True" />
+                    <SelectField field="HHlds 2+ Vehicles" selected="True" />
+                    <SelectField field="HHld Exp - Public Transport" selected="True" />
+                    <SelectField field="HHld Exp - Intercity Bus Fare" selected="True" />
+                    <SelectField field="HHld Exp - Mass Transit" selected="True" />
+                    <SelectField field="HHld Exp - Taxi" selected="True" />
+                    <SelectField field="HHld Exp - Other Public Transportation" selected="True" />
+                    <SelectField field="White" selected="True" />
+                    <SelectField field="African American" selected="True" />
+                    <SelectField field="American Indian" selected="True" />
+                    <SelectField field="Asian" selected="True" />
+                    <SelectField field="Hawaiian/Pacific Islander" selected="True" />
+                    <SelectField field="Other Race" selected="True" />
+                    <SelectField field="Multi-Race" selected="True" />
+                    <SelectField field="Hispanic" selected="True" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1025" width="972" height="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Location MSA (Metropolitan Statistical Area) - similar to DMA</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>west.xlsx
+Query=`Table 3033$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="W" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F2" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F3" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F4" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F5" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F6" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F7" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F8" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F9" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F10" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="V_String" />
+                <Field name="F11" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F12" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F13" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F14" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F15" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F16" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F17" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F18" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F19" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F20" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F21" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F22" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F23" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F24" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F25" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+                <Field name="F26" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\west.xlsx|||`Table 3033$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="80" y="1182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>midwest.xlsx
+Query=`Table 3015$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Table 3015. Selected midwestern metropolitan statistical areas: Average annual expenditures and characteristics, Consumer Expenditure Survey, 2016-2017" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="V_String" />
+                <Field name="F2" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="V_String" />
+                <Field name="F3" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="V_String" />
+                <Field name="F4" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="V_String" />
+                <Field name="F5" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="V_String" />
+                <Field name="F6" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="V_String" />
+                <Field name="F7" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F8" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F9" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F10" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F11" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F12" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F13" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F14" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F15" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F16" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F17" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F18" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F19" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F20" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F21" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F22" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F23" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F24" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F25" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+                <Field name="F26" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\midwest.xlsx|||`Table 3015$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="80" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>norteast.xlsx
+Query=`Table 3004$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Table 3004. Selected northeastern metropolitan statistical areas: Average annual expenditures and characteristics, Consumer Expenditure Survey, 2016-2017" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="V_String" />
+                <Field name="F2" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="V_String" />
+                <Field name="F3" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="V_String" />
+                <Field name="F4" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="V_String" />
+                <Field name="F5" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="V_String" />
+                <Field name="F6" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F7" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F8" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F9" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F10" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F11" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F12" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F13" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F14" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F15" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F16" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F17" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F18" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F19" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F20" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F21" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F22" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F23" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F24" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F25" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+                <Field name="F26" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\norteast.xlsx|||`Table 3004$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="80" y="1398" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>south.xlsx
+Query=`Table 3024$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Table 3024. Selected southern metropolitan statistical areas: Average annual expenditures and characteristics, Consumer Expenditure Survey, 2016-2017" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F2" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F3" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F4" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F5" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F6" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F7" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F8" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F9" size="255" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="V_String" />
+                <Field name="F10" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F11" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F12" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F13" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F14" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F15" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F16" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F17" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F18" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F19" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F20" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F21" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F22" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F23" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F24" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F25" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+                <Field name="F26" source="File: \\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\south.xlsx|||`Table 3024$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="187" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="W" selected="True" rename="Categories" />
+                <SelectField field="F2" selected="True" rename="West All Consumer" type="Double" size="8" />
+                <SelectField field="F3" selected="True" rename="Los Angeles" type="Double" size="8" />
+                <SelectField field="F4" selected="False" rename="San Francisco" />
+                <SelectField field="F5" selected="True" rename="San diego" type="Double" size="8" />
+                <SelectField field="F6" selected="False" />
+                <SelectField field="F7" selected="False" />
+                <SelectField field="F8" selected="True" rename="Denver" type="Double" size="8" />
+                <SelectField field="F9" selected="False" />
+                <SelectField field="F10" selected="False" />
+                <SelectField field="F11" selected="False" />
+                <SelectField field="F12" selected="False" />
+                <SelectField field="F13" selected="False" />
+                <SelectField field="F14" selected="False" />
+                <SelectField field="F15" selected="False" />
+                <SelectField field="F16" selected="False" />
+                <SelectField field="F17" selected="False" />
+                <SelectField field="F18" selected="False" />
+                <SelectField field="F19" selected="False" />
+                <SelectField field="F20" selected="False" />
+                <SelectField field="F21" selected="False" />
+                <SelectField field="F22" selected="False" />
+                <SelectField field="F23" selected="False" />
+                <SelectField field="F24" selected="False" />
+                <SelectField field="F25" selected="False" />
+                <SelectField field="F26" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="271" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>West All Consumer</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-11-17 12:20:18</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2022-11-17 12:20:18</StartDate>
+                  <EndDate>2022-11-17 12:20:18</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([West All Consumer])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="198" y="1182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Table 3015. Selected midwestern metropolitan statistical areas: Average annual expenditures and characteristics, Consumer Expenditure Survey, 2016-2017" selected="True" rename="Categories" />
+                <SelectField field="F2" selected="True" rename="Midwest All Consumer" type="Double" size="8" />
+                <SelectField field="F3" selected="True" rename="Chicago" type="Double" size="8" />
+                <SelectField field="F4" selected="True" rename="Detroit" type="Double" size="8" />
+                <SelectField field="F5" selected="True" rename="Minneapolis" type="Double" size="8" />
+                <SelectField field="F6" selected="True" rename="St. Louis" type="Double" size="8" />
+                <SelectField field="F7" selected="False" />
+                <SelectField field="F8" selected="False" />
+                <SelectField field="F9" selected="False" />
+                <SelectField field="F10" selected="False" />
+                <SelectField field="F11" selected="False" />
+                <SelectField field="F12" selected="False" />
+                <SelectField field="F13" selected="False" />
+                <SelectField field="F14" selected="False" />
+                <SelectField field="F15" selected="False" />
+                <SelectField field="F16" selected="False" />
+                <SelectField field="F17" selected="False" />
+                <SelectField field="F18" selected="False" />
+                <SelectField field="F19" selected="False" />
+                <SelectField field="F20" selected="False" />
+                <SelectField field="F21" selected="False" />
+                <SelectField field="F22" selected="False" />
+                <SelectField field="F23" selected="False" />
+                <SelectField field="F24" selected="False" />
+                <SelectField field="F25" selected="False" />
+                <SelectField field="F26" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="187" y="1302" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Table 3004. Selected northeastern metropolitan statistical areas: Average annual expenditures and characteristics, Consumer Expenditure Survey, 2016-2017" selected="True" rename="Categories" />
+                <SelectField field="F2" selected="True" rename="Northeast All Consumer" type="Double" size="8" />
+                <SelectField field="F3" selected="True" rename="New York" type="Double" size="8" />
+                <SelectField field="F4" selected="True" rename="Philadelphia" type="Double" size="8" />
+                <SelectField field="F5" selected="True" rename="Boston" type="Double" size="8" />
+                <SelectField field="F6" selected="False" />
+                <SelectField field="F7" selected="False" />
+                <SelectField field="F8" selected="False" />
+                <SelectField field="F9" selected="False" />
+                <SelectField field="F10" selected="False" />
+                <SelectField field="F11" selected="False" />
+                <SelectField field="F12" selected="False" />
+                <SelectField field="F13" selected="False" />
+                <SelectField field="F14" selected="False" />
+                <SelectField field="F15" selected="False" />
+                <SelectField field="F16" selected="False" />
+                <SelectField field="F17" selected="False" />
+                <SelectField field="F18" selected="False" />
+                <SelectField field="F19" selected="False" />
+                <SelectField field="F20" selected="False" />
+                <SelectField field="F21" selected="False" />
+                <SelectField field="F22" selected="False" />
+                <SelectField field="F23" selected="False" />
+                <SelectField field="F24" selected="False" />
+                <SelectField field="F25" selected="False" />
+                <SelectField field="F26" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="187" y="1398" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Table 3024. Selected southern metropolitan statistical areas: Average annual expenditures and characteristics, Consumer Expenditure Survey, 2016-2017" selected="True" rename="Categories" />
+                <SelectField field="F2" selected="True" rename="South All Consumer" type="Double" size="8" />
+                <SelectField field="F3" selected="True" rename="Washington" type="Double" size="8" />
+                <SelectField field="F4" selected="True" rename="Baltimore" type="Double" size="8" />
+                <SelectField field="F5" selected="True" rename="Atlanta" type="Double" size="8" />
+                <SelectField field="F6" selected="True" rename="Miami" type="Double" size="8" />
+                <SelectField field="F7" selected="True" rename="Dallas-Ft. Worth" type="Double" size="8" />
+                <SelectField field="F8" selected="True" rename="Houston" type="Double" size="8" />
+                <SelectField field="F9" selected="True" rename="Tampa" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="283" y="1182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Midwest All Consumer</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-11-17 12:20:21</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2022-11-17 12:20:21</StartDate>
+                  <EndDate>2022-11-17 12:20:21</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Midwest All Consumer])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="283" y="1302" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Northeast All Consumer</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-11-17 12:20:27</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2022-11-17 12:20:27</StartDate>
+                  <EndDate>2022-11-17 12:20:27</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Northeast All Consumer])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="283" y="1410" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>South All Consumer</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-11-17 12:20:30</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2022-11-17 12:20:30</StartDate>
+                  <EndDate>2022-11-17 12:20:30</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([South All Consumer])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+            <Position x="499" y="1218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JoinByRecPos value="False" />
+              <JoinFields>
+                <JoinInfo connection="#1">
+                  <Field field="Categories" />
+                </JoinInfo>
+                <JoinInfo connection="#2">
+                  <Field field="Categories" />
+                </JoinInfo>
+                <JoinInfo connection="#3">
+                  <Field field="Categories" />
+                </JoinInfo>
+                <JoinInfo connection="#4">
+                  <Field field="Categories" />
+                </JoinInfo>
+              </JoinFields>
+              <CartesianMode>Error</CartesianMode>
+              <OutputJoinOnly value="False" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Input_#2_Categories" selected="False" rename="Input_#2_Categories" />
+                    <SelectField field="Input_#3_Categories" selected="False" rename="Input_#3_Categories" />
+                    <SelectField field="Input_#4_Categories" selected="False" rename="Input_#4_Categories" />
+                    <SelectField field="Input_#2_All Consumer" selected="False" rename="Input_#2_All Consumer" />
+                    <SelectField field="Input_#3_All Consumer" selected="False" rename="Input_#3_All Consumer" />
+                    <SelectField field="Input_#4_All Consumer" selected="False" rename="Input_#4_All Consumer" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="655" y="1218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="West All Consumer" />
+                <Field field="Los Angeles" />
+                <Field field="San diego" />
+                <Field field="Denver" />
+                <Field field="Midwest All Consumer" />
+                <Field field="Chicago" />
+                <Field field="Detroit" />
+                <Field field="Minneapolis" />
+                <Field field="St. Louis" />
+                <Field field="Northeast All Consumer" />
+                <Field field="New York" />
+                <Field field="Philadelphia" />
+                <Field field="Boston" />
+                <Field field="South All Consumer" />
+                <Field field="Washington" />
+                <Field field="Baltimore" />
+                <Field field="Atlanta" />
+                <Field field="Miami" />
+                <Field field="Dallas-Ft. Worth" />
+                <Field field="Houston" />
+                <Field field="Tampa" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Categories" selected="True" />
+                <Field field="West All Consumer" selected="False" />
+                <Field field="Los Angeles" selected="False" />
+                <Field field="San diego" selected="False" />
+                <Field field="Denver" selected="False" />
+                <Field field="Midwest All Consumer" selected="False" />
+                <Field field="Chicago" selected="False" />
+                <Field field="Detroit" selected="False" />
+                <Field field="Minneapolis" selected="False" />
+                <Field field="St. Louis" selected="False" />
+                <Field field="Northeast All Consumer" selected="False" />
+                <Field field="New York" selected="False" />
+                <Field field="Philadelphia" selected="False" />
+                <Field field="Boston" selected="False" />
+                <Field field="South All Consumer" selected="False" />
+                <Field field="Washington" selected="False" />
+                <Field field="Baltimore" selected="False" />
+                <Field field="Atlanta" selected="False" />
+                <Field field="Miami" selected="False" />
+                <Field field="Dallas-Ft. Worth" selected="False" />
+                <Field field="Houston" selected="False" />
+                <Field field="Tampa" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="775" y="1218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Value" selected="True" rename="Category" />
+                <SelectField field="West All Consumer" selected="True" />
+                <SelectField field="Los Angeles" selected="True" />
+                <SelectField field="San diego" selected="True" />
+                <SelectField field="Denver" selected="True" />
+                <SelectField field="Midwest All Consumer" selected="True" />
+                <SelectField field="Chicago" selected="True" />
+                <SelectField field="Detroit" selected="True" />
+                <SelectField field="Minneapolis" selected="True" />
+                <SelectField field="St. Louis" selected="True" />
+                <SelectField field="Northeast All Consumer" selected="True" />
+                <SelectField field="New York" selected="True" />
+                <SelectField field="Philadelphia" selected="True" />
+                <SelectField field="Boston" selected="True" />
+                <SelectField field="South All Consumer" selected="True" />
+                <SelectField field="Washington" selected="True" />
+                <SelectField field="Baltimore" selected="True" />
+                <SelectField field="Atlanta" selected="True" />
+                <SelectField field="Miami" selected="True" />
+                <SelectField field="Dallas-Ft. Worth" selected="True" />
+                <SelectField field="Houston" selected="True" />
+                <SelectField field="Tampa" selected="True" />
+                <SelectField field="Name" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="846" y="1169" width="155" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 93</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="91">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="871" y="1218" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="25">\\Mac\Home\Documents\Applied Analytics\Homework4\HW4_Data\MSA_data_joined.xlsx|||Sheet1</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <PreserveFormat>False</PreserveFormat>
+                    <SkipFieldNames>False</SkipFieldNames>
+                    <OutputOption>Create</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>MSA_data_joined.xlsx
+Query=Sheet1</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="22" Connection="Left" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="42" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="False" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="False" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="False" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="81" Connection="True" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="85" Connection="True" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="86" Connection="True" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="87" Connection="True" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>HW4_WKFLO</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="99981015-6314-47db-8d2d-3b9d4a3a247a" />
+      <Telemetry>
+        <PreviousWorkflowId value="4cff379d-d4da-4639-8f28-9911488dd67d" />
+        <OriginWorkflowId value="4cff379d-d4da-4639-8f28-9911488dd67d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
