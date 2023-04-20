@@ -4,7 +4,7 @@
 **[Alteryx Workflow](/CompAnalysisWKFLO.yxmd), [R File](/DMAweeklysales.R)**
 
 
-Analysis and Launch plan for Retail Startup
+## Analysis and Launch plan for Retail Startup
 
 1. Design and communicate an analytical plan for launch of targeted retail locations – determine the best 10 markets to compete effectively against an established competitor.
 
