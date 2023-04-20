@@ -1,5 +1,8 @@
 # WalmartLocationalAnalysis
-## The presentation file is LocAnalysis_Presentation.pptx ##
+## The presentation file is [Locational Analysis Presentation](/LocAnalysis_Presentation.pptx) ##
+# The Other Deliverables #
+** [Alteryx Workflow](/CompAnalysisWKFLO.yxmd), [R File](/DMAweeklysales.R) **
+
 
 Analysis and Launch plan for Retail Startup
 
